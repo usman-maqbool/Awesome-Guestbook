@@ -1,0 +1,59 @@
+.btn {
+  cursor: pointer;
+  padding: 7px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 5px;
+  text-transform: uppercase;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-control input:active {
+  border: 1px solid grey !important;
+  outline: none !important;
+}
+.btn-orange-outlined {
+  background-color: white;
+  color: #ef5742;
+  border: 1px solid #ef5742;
+  transition: 0.3s all ease-in-out;
+}
+.btn-orange-outlined:hover {
+  color: white;
+  background-color: #ef5742;
+}
+.btn-orange {
+  padding: 7px 55px;
+  background-color: #ef5742;
+  border: 1px solid #ef5742;
+  color: white;
+  box-shadow: none;
+  transition: 0.3s all ease-in-out;
+}
+.btn-orange:hover {
+  background-color: white;
+  color: #ef5742;
+}
+.btn-danger {
+  background-color: rgb(205, 3, 3);
+  border: 1px solid rgb(205, 3, 3);
+  color: white;
+}
+.btn-danger:hover {
+  background-color: white;
+  color: rgb(205, 3, 3);
+}
+.btn-danger.disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
+.depart-pill {
+  padding: 7px 15px;
+  border-radius: 20px;
+  background-color: #ebebeb;
+}
